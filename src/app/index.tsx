@@ -1,5 +1,5 @@
 import { FlatList, StyleSheet, View } from 'react-native';
-import DayListItem from '../components/core/DayListItem';
+import DayListItem from '@components/core/DayListItem';
 
 const days = Array.from({ length: 24 }, (_, i) => i + 1);
 
